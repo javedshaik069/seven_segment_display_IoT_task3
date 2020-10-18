@@ -1,0 +1,292 @@
+void setup()
+{
+  pinMode(0, OUTPUT);
+  pinMode(1, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+
+}
+
+void zero()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, LOW);
+}
+void one()
+{
+  digitalWrite(1, LOW);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(7, LOW);
+}
+void two()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, LOW);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, LOW);
+  digitalWrite(7, HIGH);
+}
+void three()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(7, HIGH);
+}
+void four()
+{
+  digitalWrite(1, LOW);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+}
+void five()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, LOW);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, LOW);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+}
+void six()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, LOW);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+}
+void seven()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(7, LOW);
+}
+void eight()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+}
+void nine()
+{
+  digitalWrite(1, HIGH);
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+}
+
+//ALPHABETS
+
+void a()
+{
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(11, LOW);
+  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH);
+  digitalWrite(0, HIGH);
+}
+void e()
+{
+  digitalWrite(8, HIGH);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(11, HIGH);
+  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH);
+  digitalWrite(0, HIGH);
+}
+void i()
+{
+  digitalWrite(8, LOW);
+  digitalWrite(9, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(11, LOW);
+  digitalWrite(12, LOW);
+  digitalWrite(13, LOW);
+  digitalWrite(0, LOW);
+}
+void o()
+{
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(11, HIGH);
+  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH);
+  digitalWrite(0, LOW);
+}
+void u()
+{
+  digitalWrite(8, LOW);
+  digitalWrite(9, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(11, HIGH);
+  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH);
+  digitalWrite(0, LOW);
+}
+
+//main
+
+void loop()
+{
+//A0-A9
+a(); one();
+  delay(1500);
+a(); two();
+  delay(1500);
+a(); three();
+  delay(1500);
+a(); four();
+  delay(1500);
+a(); five();
+  delay(1500);
+a(); six();
+  delay(1500);
+a(); seven();
+  delay(1500);
+a(); eight();
+  delay(1500);
+a(); nine();
+  delay(1500);
+a(); zero();
+  delay(1500);
+delay(3000); 
+  
+//E0-E9
+e(); one();
+  delay(1500);
+e(); two();
+  delay(1500);
+e(); three();
+  delay(1500);
+e(); four();
+  delay(1500);
+e(); five();
+  delay(1500);
+e(); six();
+  delay(1500);
+e(); seven();
+  delay(1500);
+e(); eight();
+  delay(1500);
+e(); nine();
+  delay(1500);
+e(); zero();
+  delay(1500);
+delay(3000);
+  
+//I0-I9
+i(); one();
+  delay(1500);
+i(); two();
+  delay(1500);
+i(); three();
+  delay(1500);
+i(); four();
+  delay(1500);
+i(); five();
+  delay(1500);
+i(); six();
+  delay(1500);
+i(); seven();
+  delay(1500);
+i(); eight();
+  delay(1500);
+i(); nine();
+  delay(1500);
+i(); zero();
+  delay(1500);
+delay(3000);
+  
+//O0-O9
+o(); one();
+  delay(1500);
+o(); two();
+  delay(1500);
+o(); three();
+  delay(1500);
+o(); four();
+  delay(1500);
+o(); five();
+  delay(1500);
+o(); six();
+  delay(1500);
+o(); seven();
+  delay(1500);
+o(); eight();
+  delay(1500);
+o(); nine();
+  delay(1500);
+o(); zero();
+  delay(1500);
+delay(3000);
+    
+//U0-U9
+u(); one();
+  delay(1500);
+u(); two();
+  delay(1500);
+u(); three();
+  delay(1500);
+u(); four();
+  delay(1500);
+u(); five();
+  delay(1500);
+u(); six();
+  delay(1500);
+u(); seven();
+  delay(1500);
+u(); eight();
+  delay(1500);
+u(); nine();
+  delay(1500);
+u(); zero();
+  delay(1500);
+delay(3000);
+}
